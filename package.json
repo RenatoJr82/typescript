@@ -9,7 +9,9 @@
   },
   "scripts": {
     "dist": "npx tsc",
-    "start:dev": "npm run dist && node src/index.js"
+    "start:dev": "tsx src/index.ts",
+    "start:watch": "tsx watch src/index.ts",
+    "start:dist": "npm run dist && node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
   },
   "homepage": "https://github.com/RenatoJr82/typescript#readme",
   "devDependencies": {
+    "tsx": "^4.23.0",
     "typescript": "^6.0.3"
   }
 }

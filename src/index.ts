@@ -1,5 +1,5 @@
 function main() {
-    let myEmail: string = "felipao@dio.me";
+    let myEmail: string = "Fala Renatão";
     console.log(myEmail);
 }
 
