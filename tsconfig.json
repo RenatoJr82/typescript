@@ -1,3 +1,6 @@
+// COMANDO NO TERMINAL "npx tsc --init" para criar o arquivo esse de configuração (tsconfig.json)
+// Esse arquivo cria uma configuração para fazer a "transpilação" do código JavaScript para o TypeScript
+
 {
   "compilerOptions": {
     "target": "es2025",
